@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2faff;
+}
+
+
+/* Navbar */
+
+.navbar {
+    height: 12vh;
+    padding: 3vh 5vw;
+    background-color: white;
+    white-space: nowrap;
+}
+
+.logo {
+    display: inline-block;
+    width: 25%;
+    color: #087ea4;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.links {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+
+.links a {
+    margin: 0 1vw;
+    color: #333;
+    font-size: 1.1vw;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: #087ea4;
+}
+
+.user {
+    display: inline-block;
+    width: 24%;
+    text-align: right;
+    color: #087ea4;
+    font-size: 1.2vw;
+}
+
+
+/* Hero Section */
+
+.hero {
+    height: 88vh;
+    padding: 10vh 5vw;
+    background-color: white;
+    white-space: nowrap;
+}
+
+
+/* Left side */
+
+.hero-text {
+    display: inline-block;
+    width: 48%;
+    vertical-align: middle;
+    white-space: normal;
+}
+
+.hero-text h1 {
+    margin: 0;
+    color: #075985;
+    font-size: 4vw;
+}
+
+.hero-text p {
+    width: 90%;
+    color: #555;
+    font-size: 1.3vw;
+    line-height: 1.5;
+}
+
+.hero-text button {
+    padding: 1.5vh 2vw;
+    border: none;
+    border-radius: 25px;
+    background-color: #087ea4;
+    color: white;
+    font-size: 1.1vw;
+    cursor: pointer;
+}
+
+.hero-text button:hover {
+    background-color: #066b8c;
+}
+
+
+/* Right side */
+
+.hero-image {
+    display: inline-block;
+    width: 48%;
+    vertical-align: middle;
+    white-space: normal;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 55vh;
+    object-fit: cover;
+    border-radius: 15px;
+}
